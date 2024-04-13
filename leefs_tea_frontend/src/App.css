@@ -1,37 +1,61 @@
 .pastel-blue-text {
     color: #D0ECF2
 }
+
 .accent-pink-text {
     color: #D95995
 }
+
 .orange-one-text {
     color: #F2CB05
 }
+
 .orange-two-text {
     color: #F2B705
 }
+
 .orange-three-text {
     color: #F29F05
 }
+
 .pastel-blue-bg {
     background: #D0ECF2
 }
+
 .accent-pink-bg {
     background: #D95995
 }
+
 .orange-one-bg {
     background: #F2CB05
 }
+
 .orange-two-bg {
     background: #F2B705
 }
+
 .orange-three-bg {
     background: #F29F05
 }
+
 /* text */
 .app-text {
-    font-family: "chorine-large", sans-serif;
-    /* change weight ? */
-    font-weight: 500; 
-    font-style: normal;
+    font-family: "bd-orange-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+}
+.app-text-light {
+    font-family: "bd-orange-variable", sans-serif;
+    font-variation-settings: 'wght' 300;  
+}
+.app-text-thin {
+    font-family: "bd-orange-variable", sans-serif;
+    font-variation-settings: 'wght' 100;
+}
+.app-text-bold {
+    font-family: "bd-orange-variable", sans-serif;
+    font-variation-settings: 'wght' 600;
+}
+.app-text-black {
+    font-family: "bd-orange-variable", sans-serif;
+    font-variation-settings: 'wght' 800;
 }
