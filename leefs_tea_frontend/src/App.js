@@ -10,24 +10,24 @@ function App() {
     <div className="App">
       <Grid
         // todo- add responsive for smaller screens
-        templateAreas={`"header header" "ingredients directions" "walkthrough walkthrough"`}
-        gridTemplateRows={'80px 6fr 6fr'}
-        gridTemplateColumns={'2fr 2fr'}
+        templateAreas={` "ingredients" "walkthrough"`}
+        gridTemplateRows={'6fr 6fr'}
+        gridTemplateColumns={'100%'}
         h={1500}
         gap='1'
         color='white' // default text color, typically will override with class identifier
-        className='app-text'
+        
       >
-        <GridItem area={'header'} className='pastel-blue-bg orange-two-text' fontSize={'25px'}>
+        {/* <GridItem area={'header'} className='orange-one-bg'>
           <Header />
-        </GridItem>
-        <GridItem area={'ingredients'} className='orange-two-bg' fontSize={'25px'}>
+        </GridItem> */}
+        <GridItem area={'ingredients'} className='orange-two-bg' fontSize={'100px'} p={2}>
           <IngredientContainer />
         </GridItem>
-        <GridItem area={'directions'} className='orange-three-bg' fontSize={'25px'}>
+        <GridItem area={'directions'} className='orange-three-bg' fontSize={'25px'} p={2}>
           <DirectionsContainer />
         </GridItem>
-        <GridItem area={'walkthrough'} className='orange-one-bg' fontSize={'25px'}>
+        <GridItem area={'walkthrough'} className='orange-one-bg' fontSize={'25px'} p={2}>
           <VideoWalkthrough />
         </GridItem>
       </Grid>

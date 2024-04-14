@@ -59,3 +59,8 @@
     font-family: "bd-orange-variable", sans-serif;
     font-variation-settings: 'wght' 800;
 }
+.logo-text-bold-italic {
+    font-family: "jeanne-moderno", serif;
+    font-weight: 700;
+    font-style: italic;
+}
