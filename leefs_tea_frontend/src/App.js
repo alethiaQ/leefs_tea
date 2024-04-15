@@ -18,7 +18,7 @@ function App() {
         color='white' // default text color, typically will override with class identifier
         className='app-text'
       >
-        <GridItem area={'header'} className='orange-one-bg'>
+        <GridItem area={'header'} className='orange-three-text'>
           <Header />
         </GridItem>
         <GridItem area={'ingredients'} className='orange-two-bg' fontSize={'100px'} p={2}>
