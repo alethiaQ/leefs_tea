@@ -3,8 +3,8 @@ import { Box } from "@chakra-ui/react";
 const Header = () => {
 
     return (
-        <Box className="app-text-light"  fontSize={'45px'} p={2}>
-            Spotlight
+        <Box className="logo-text-bold-italic"  fontSize={'45px'} p={10}>
+        LEEF'S TEA
         </Box>
     )
 }
