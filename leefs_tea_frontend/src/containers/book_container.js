@@ -1,4 +1,4 @@
-const VideoWalkthrough = () => {
+const BookContainer = () => {
 
     return (
         <div className="pastel-blue-text">
@@ -6,4 +6,4 @@ const VideoWalkthrough = () => {
         </div>
     )
 }
-export default VideoWalkthrough;
+export default BookContainer;

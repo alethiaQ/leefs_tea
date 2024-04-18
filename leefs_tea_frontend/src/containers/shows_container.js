@@ -1,8 +1,8 @@
 import { Box} from '@chakra-ui/react'
-const IngredientContainer = () => {
+const ShowsContainer = () => {
     return (
         <Box className="">
         </Box>
     )
 }
-export default IngredientContainer;
+export default ShowsContainer;
