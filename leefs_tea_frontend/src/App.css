@@ -64,3 +64,36 @@
     font-weight: 700;
     font-style: italic;
 }
+
+
+.dark-text {
+    color: #5C4B51;
+}
+.dark-bg {
+    background: #5C4B51;
+}
+
+.blue-app-text {
+    color: #8CBEB2
+}
+.blue-app-bg {
+    background: #8CBEB2;
+}
+.pale-neutral-text {
+    color: #F2EBBF
+}
+.pale-neutral-bg {
+    background: #F2EBBF
+}
+.app-orange-text {
+    color: #F3B562
+}
+.app-orange-bg {
+    background: #F3B562
+}
+.bright-red-text {
+    color: #F06060
+}
+.bright-red-bg {
+    background: #F06060;
+}

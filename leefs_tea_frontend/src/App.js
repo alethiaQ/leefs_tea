@@ -10,24 +10,22 @@ function App() {
     <div className="App">
       <Grid
         // todo- add responsive for smaller screens
-        templateAreas={`"header header" "ingredients directions" "walkthrough walkthrough"`}
-        gridTemplateRows={'80px 6fr 6fr'}
-        gridTemplateColumns={'2fr 2fr'}
+        templateAreas={`"header" "shows" "movies" "books"`}
         h={1500}
         gap='1'
         color='white' // default text color, typically will override with class identifier
         className='app-text'
       >
-        <GridItem area={'header'} className='orange-three-text'>
+        <GridItem area={'header'} className='dark-text'>
           <Header />
         </GridItem>
-        <GridItem area={'ingredients'} className='orange-two-bg' fontSize={'100px'} p={2}>
+        <GridItem area={'shows'} className='blue-app-bg' w='100%' h='700px'>
           <IngredientContainer />
         </GridItem>
-        <GridItem area={'directions'} className='orange-three-bg' fontSize={'25px'} p={2}>
+        <GridItem area={'movies'} className='pale-neutral-bg'  w='100%' h='700px'>
           <DirectionsContainer />
         </GridItem>
-        <GridItem area={'walkthrough'} className='orange-one-bg' fontSize={'25px'} p={2}>
+        <GridItem area={'books'} className='bright-red-bg'  w='100%' h='700px'>
           <VideoWalkthrough />
         </GridItem>
       </Grid>
