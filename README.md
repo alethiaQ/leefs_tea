@@ -1,2 +1,2 @@
 # leefs_tea
-Recipes and walkthroughs with Leeth
+Alethia's corner of the internet. Showcasing some of the best and current TV shows, movies, and books.
